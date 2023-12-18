@@ -51,7 +51,8 @@ To list the uploaded files, use the following command:
 curl http://localhost:8080/list
 ```
 ### Download a File
-To download a specific file, replace <filename> with the actual filename:
+
+To download a specific file, use the following command:
 
 ```bash
 curl -O http://localhost:8080/download/nafiu.jpeg
