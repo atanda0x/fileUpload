@@ -17,12 +17,12 @@ func main() {
 	// Create a new router instance
 	router := mux.NewRouter()
 
-	// Define your routes
+	// router for each endpoint
 	router.HandleFunc("/upload", uploadfile.UploadFile).Methods("POST")
 	router.HandleFunc("/list", uploadfile.ListFiles).Methods("GET")
 	router.HandleFunc("/download/{filename}", uploadfile.DownloadFile).Methods("GET")
 
-	// Specify the port you want to run the server on
+	// Running on port 8080
 	port := ":8080"
 
 	// Start the HTTP server
