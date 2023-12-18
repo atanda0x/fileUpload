@@ -1,6 +1,6 @@
 # File Upload and Download Service
 
-This is a simple Go application for uploading, listing, and downloading files. It includes a basic HTTP server with three endpoints: `/upload` for file upload, `/list` for listing uploaded files, and `/download/{filename}` for downloading a specific file.
+This is a simple Go application for uploading, listing, and downloading files. It includes a HTTP server with three endpoints: `/upload` for file upload, `/list` for listing uploaded files, and `/download/{filename}` for downloading a specific file.
 
 ## Prerequisites
 
