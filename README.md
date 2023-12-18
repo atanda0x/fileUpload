@@ -1,6 +1,6 @@
 # File Upload and Download Service
 
-This is a simple Go application for uploading, listing, and downloading files. It includes a HTTP server with three endpoints: `/upload` for file upload, `/list` for listing uploaded files, and `/download/{filename}` for downloading a specific file.
+This is a Go upload file application for uploading, listing, and downloading files. It includes an HTTP server with three endpoints: `/upload` for file upload, `/list` for listing uploaded files, and `/download/{filename}` for downloading a specific file.
 
 ## Prerequisites
 
@@ -23,14 +23,14 @@ Make sure you have Go installed on your machine. If not, you can download and in
 3. Install dependencies:
 
     ```bash
-    go get -u github.com/gorilla/mux
+    go  -u github.com/gorilla/mux
     ```
 
 4. Run the application:
 
     ```bash
     go run main.go
-    ```
+     ```
 
 The application will start, and you can access it at [http://localhost:8080](http://localhost:8080).
 
