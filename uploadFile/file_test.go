@@ -93,7 +93,6 @@ func TestListFiles(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	// Add your assertions for the fileInfos if needed
 }
 
 func TestDownloadFile(t *testing.T) {
