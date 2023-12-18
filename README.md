@@ -41,7 +41,7 @@ The application will start, and you can access it at [http://localhost:8080](htt
 To upload a file, send a POST request using tools like `curl` or Postman:
 
 ```bash
-curl -X POST -F "file=@assets/nafiu.jpeg" http://localhost:8080/upload
+curl -X POST -F "file=@assets/nafiu.jpeg" /  http://localhost:8080/upload
 ```
 ### List Uploaded Files
 
