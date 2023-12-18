@@ -8,8 +8,6 @@ import (
 	"github.com/gorilla/mux"
 )
 
-// In-memory storage map
-
 func main() {
 	// Initialize the in-memory storage map
 	uploadfile.Files = make(map[string][]byte)
